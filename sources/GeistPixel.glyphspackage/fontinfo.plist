@@ -94,6 +94,19 @@ Axis = "Element Shape";
 Location = 100;
 }
 );
+},
+{
+name = "meta Table";
+value = (
+{
+data = Latn;
+tag = dlng;
+},
+{
+data = Latn;
+tag = slng;
+}
+);
 }
 );
 date = "2026-01-28 20:29:16 +0000";
