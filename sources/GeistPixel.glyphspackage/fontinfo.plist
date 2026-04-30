@@ -1,10 +1,10 @@
 {
-.appVersion = "3436";
+.appVersion = "3516";
 .formatVersion = 3;
 axes = (
 {
-name = "Pixel Shape";
-tag = PXSH;
+name = "Element Shape";
+tag = ELSH;
 }
 );
 customParameters = (
@@ -35,6 +35,63 @@ value = (
 {
 data = Latn;
 tag = dlng;
+}
+);
+},
+{
+name = "Axis Mappings";
+value = {
+ELSH = {
+0 = 0;
+40 = 40;
+60 = 60;
+80 = 80;
+100 = 100;
+};
+};
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = "Element Shape";
+Location = 0;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = "Element Shape";
+Location = 40;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = "Element Shape";
+Location = 60;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = "Element Shape";
+Location = 80;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = "Element Shape";
+Location = 100;
 }
 );
 }
@@ -324,7 +381,7 @@ tag = ss09;
 fontMaster = (
 {
 axesValues = (
-400
+0
 );
 customParameters = (
 {
@@ -366,6 +423,15 @@ value = 394;
 {
 name = "Master Icon Glyph Name";
 value = v;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Element Shape";
+Location = 0;
+}
+);
 }
 );
 guides = (
@@ -395,27 +461,43 @@ visible = 1;
 );
 instances = (
 {
-name = Regular;
-type = variable;
-},
-{
 axesValues = (
-400
+0
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Element Shape";
+Location = 0;
+}
+);
+}
 );
 instanceInterpolations = {
 m01 = 1;
 };
-name = Square;
+name = Regular;
 },
 {
 axesValues = (
-400
+40
 );
 customParameters = (
 {
 name = "Rename Glyphs";
 value = (
 "pixel=pixel.circle"
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Element Shape";
+Location = 40;
+}
 );
 }
 );
@@ -426,13 +508,22 @@ name = Circle;
 },
 {
 axesValues = (
-400
+60
 );
 customParameters = (
 {
 name = "Rename Glyphs";
 value = (
 "pixel=pixel.grid"
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Element Shape";
+Location = 60;
+}
 );
 }
 );
@@ -443,13 +534,22 @@ name = Grid;
 },
 {
 axesValues = (
-400
+80
 );
 customParameters = (
 {
 name = "Rename Glyphs";
 value = (
 "pixel=pixel.triangle"
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Element Shape";
+Location = 80;
+}
 );
 }
 );
@@ -460,13 +560,22 @@ name = Triangle;
 },
 {
 axesValues = (
-400
+100
 );
 customParameters = (
 {
 name = "Rename Glyphs";
 value = (
 "pixel=pixel.line"
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Element Shape";
+Location = 100;
+}
 );
 }
 );
@@ -561,6 +670,10 @@ language = dflt;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 }
 );
+},
+{
+key = licenseURL;
+value = "https://openfontlicense.org";
 },
 {
 key = manufacturers;
