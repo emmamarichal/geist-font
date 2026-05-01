@@ -100,10 +100,6 @@ name = "meta Table";
 value = (
 {
 data = Latn;
-tag = dlng;
-},
-{
-data = Latn;
 tag = slng;
 }
 );
@@ -479,6 +475,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -505,6 +502,7 @@ value = (
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -531,6 +529,7 @@ value = (
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -557,6 +556,7 @@ value = (
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -583,6 +583,7 @@ value = (
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
