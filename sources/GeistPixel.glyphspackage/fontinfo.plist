@@ -39,54 +39,6 @@ tag = dlng;
 );
 },
 {
-name = "Axis Mappings";
-value = {
-ELSH = {
-0 = 0;
-40 = 40;
-60 = 60;
-80 = 80;
-100 = 100;
-};
-};
-},
-{
-name = "Virtual Master";
-value = (
-{
-Axis = "Element Shape";
-Location = 0;
-}
-);
-},
-{
-name = "Virtual Master";
-value = (
-{
-Axis = "Element Shape";
-Location = 40;
-}
-);
-},
-{
-name = "Virtual Master";
-value = (
-{
-Axis = "Element Shape";
-Location = 60;
-}
-);
-},
-{
-name = "Virtual Master";
-value = (
-{
-Axis = "Element Shape";
-Location = 80;
-}
-);
-},
-{
 name = "Virtual Master";
 value = (
 {
@@ -94,18 +46,9 @@ Axis = "Element Shape";
 Location = 100;
 }
 );
-},
-{
-name = "meta Table";
-value = (
-{
-data = Latn;
-tag = slng;
 }
 );
-}
-);
-date = "2026-01-28 20:29:16 +0000";
+date = "2026-04-03 11:28:45 +0000";
 familyName = "Geist Pixel";
 featurePrefixes = (
 {
@@ -432,20 +375,6 @@ value = 394;
 {
 name = "Master Icon Glyph Name";
 value = v;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = "Element Shape";
-Location = 0;
-}
-);
-}
-);
-guides = (
-{
-pos = (172,912);
 }
 );
 id = m01;
@@ -473,130 +402,60 @@ instances = (
 axesValues = (
 0
 );
-customParameters = (
-{
-disabled = 1;
-name = "Axis Location";
-value = (
-{
-Axis = "Element Shape";
-Location = 0;
-}
-);
-}
-);
 instanceInterpolations = {
 m01 = 1;
 };
 name = Regular;
+visible = 0;
 },
 {
 axesValues = (
-40
+1
 );
-customParameters = (
-{
-name = "Rename Glyphs";
-value = (
-"pixel=pixel.circle"
-);
+instanceInterpolations = {
+m01 = 1;
+};
+name = Square;
 },
 {
-disabled = 1;
-name = "Axis Location";
-value = (
-{
-Axis = "Element Shape";
-Location = 40;
-}
-);
-}
+axesValues = (
+20
 );
 instanceInterpolations = {
 m01 = 1;
 };
 name = Circle;
+visible = 0;
 },
 {
 axesValues = (
-60
-);
-customParameters = (
-{
-name = "Rename Glyphs";
-value = (
-"pixel=pixel.grid"
-);
-},
-{
-disabled = 1;
-name = "Axis Location";
-value = (
-{
-Axis = "Element Shape";
-Location = 60;
-}
-);
-}
+40
 );
 instanceInterpolations = {
 m01 = 1;
 };
 name = Grid;
+visible = 0;
 },
 {
 axesValues = (
-80
-);
-customParameters = (
-{
-name = "Rename Glyphs";
-value = (
-"pixel=pixel.triangle"
-);
-},
-{
-disabled = 1;
-name = "Axis Location";
-value = (
-{
-Axis = "Element Shape";
-Location = 80;
-}
-);
-}
+60
 );
 instanceInterpolations = {
 m01 = 1;
 };
 name = Triangle;
+visible = 0;
 },
 {
 axesValues = (
-100
-);
-customParameters = (
-{
-name = "Rename Glyphs";
-value = (
-"pixel=pixel.line"
-);
-},
-{
-disabled = 1;
-name = "Axis Location";
-value = (
-{
-Axis = "Element Shape";
-Location = 100;
-}
-);
-}
+80
 );
 instanceInterpolations = {
 m01 = 1;
 };
 name = Line;
+visible = 0;
 }
 );
 kerningLTR = {
@@ -684,10 +543,6 @@ language = dflt;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 }
 );
-},
-{
-key = licenseURL;
-value = "https://openfontlicense.org";
 },
 {
 key = manufacturers;
