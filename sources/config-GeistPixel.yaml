@@ -1,11 +1,9 @@
 sources:
   - GeistPixel.glyphspackage
-axisOrder:
-  - ELSH
-familyName: Geist Pixel
-cleanUp: true
-buildVariable: True
 outputDir: ../fonts/GeistPixel
+familyName: "Geist Pixel"
+cleanUp: true
+buildStatic: false
 stat:
   - name: Element Shape
     tag: ELSH
@@ -13,11 +11,13 @@ stat:
     - name: Regular
       value: 0
       flags: 2
+    - name: Square
+      value: 0
     - name: Circle
-      value: 40
+      value: 20
     - name: Grid
-      value: 60
+      value: 40
     - name: Triangle
-      value: 80
+      value: 60
     - name: Line
-      value: 100
+      value: 80
