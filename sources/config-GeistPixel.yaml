@@ -3,7 +3,6 @@ sources:
 outputDir: ../fonts/GeistPixel
 familyName: "Geist Pixel"
 cleanUp: true
-buildStatic: false
 stat:
   - name: Element Shape
     tag: ELSH

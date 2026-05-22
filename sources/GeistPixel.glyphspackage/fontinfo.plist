@@ -403,6 +403,10 @@ visible = 1;
 );
 instances = (
 {
+name = Regular;
+type = variable;
+},
+{
 axesValues = (
 0
 );
