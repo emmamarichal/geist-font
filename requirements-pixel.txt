@@ -96,6 +96,9 @@ resvg-cli==0.22.0.post3
 rich==13.7.1
 rstr==3.2.2
 selenium==4.18.1
+# Pinned below 81 because fs==2.4.16 still calls pkg_resources.declare_namespace,
+# which setuptools 81 removes. Python 3.11+ venvs no longer bundle setuptools.
+setuptools==80.10.2
 sh==2.0.6
 shaperglot==0.5.0
 six==1.16.0
